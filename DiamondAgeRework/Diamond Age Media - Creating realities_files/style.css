@@ -55,6 +55,11 @@ Primary Color: cyan;
     color: cyan;
 }
 
+.colored-job-title {
+    color: dimgray !important;
+    text-shadow: 0px 0px 7px cyan
+}
+
 .colored-title {
     color: cyan;
     text-shadow: 1px 1px 1px teal;
@@ -62,15 +67,19 @@ Primary Color: cyan;
 
 .colored-over-video {
     color:cyan;
-    text-shadow: 0 0 4px teal;
+    text-shadow: 0px 0px 4px teal;
 }
 
 .title-over-video {
-    text-shadow: 0 0 4px grey;
+    text-shadow: 0px 0px 4px grey;
+}
+
+.uncolored-title{
+    text-shadow: 1px 1px 2px gray;
 }
 /* -Link Styling- */
 a {
-    color: cyan;
+    color:darkturquoise;
     font-family: Raleway, sans-serif;
 	text-decoration: none;
 }
@@ -79,15 +88,15 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: cyan;
+    color: darkturquoise;
 	text-decoration: underline;
 }
 a:active {
-    color: cyan;
+    color: darkturquoise;
     text-decoration: underline;
 }
 a:focus {
-    color: cyan;
+    color: darkturquoise;
     text-decoration: none;
 }
 /* -Resets- */
@@ -247,7 +256,7 @@ button {
     outline: none !important;
 }
 .button {
-	background: cyan;
+	background: darkturquoise;
     border: none;
     border-radius: 2px;
     color: #FFF;
@@ -750,7 +759,7 @@ button {
     margin: 0;
 }
 .button.secondary {
-    background: #222;
+    background: grey;
 }
 .button.secondary:hover {
     background: #FFF;
