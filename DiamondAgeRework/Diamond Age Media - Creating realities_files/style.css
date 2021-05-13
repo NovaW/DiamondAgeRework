@@ -20,8 +20,8 @@ Table of contents
     VI.Games Section
     VII.Team Section
     VIII.Careers Section
-    IX.Contact Section
-    X.Footer
+    IX.Footer
+    X.Contact Section
     XI.404 Page
     XII.Responsive Styles
 
@@ -49,7 +49,7 @@ Primary Color: cyan;
     src: url('../fonts/Raleway-Regular.otf');
 }
 
-/* --------------------------- /////////// I. GENERAL /////////// --------------------------- */
+/* --------------------------- /////////// I.GENERAL /////////// --------------------------- */
 /* -Color- */
 .colored {
     color: cyan;
@@ -144,7 +144,7 @@ p {
 }
 
 h2.overlay-gallery{
-position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -278,7 +278,7 @@ button {
 	background: #333;
 	color: #FFF;
 }
-/* --------------------------- /////////// II. PAGE PRELOADER /////////// --------------------------- */
+/* --------------------------- /////////// II.PAGE PRELOADER /////////// --------------------------- */
 /* -Loading Screen- */
 #loader-wrapper {
     background: #FFF;
@@ -321,7 +321,7 @@ button {
     transition: all 0.5s ease;
 }
 
-/* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
+/* --------------------------- /////////// III.HEADER & NAVIGATION /////////// --------------------------- */
 #logo {
     font-family: Raleway, sans-serif;
     font-size: 1.75rem; /* 28px */;
@@ -403,7 +403,7 @@ button {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-/* --------------------------- /////////// IV. HERO SECTION /////////// --------------------------- */
+/* --------------------------- /////////// IV.HERO SECTION /////////// --------------------------- */
 .hero-unit {
     position: relative;
 }
@@ -439,11 +439,78 @@ button {
     font-family: Open Sans, sans-serif;
 }
 
-/* --------------------------- /////////// V. ABOUT SECTION /////////// --------------------------- */
+/* --------------------------- /////////// V.ABOUT SECTION /////////// --------------------------- */
 #support-image {
     margin: 0 0 0 20%;
 }
-/* --------------------------- /////////// VI. GAMES SECTION /////////// --------------------------- */
+/* 
+.city-hover {
+    background-image: url('https://2.bp.blogspot.com/-CmBgofK7QzU/TVj3u3N1h2I/AAAAAAAADN8/OszBhGvvXRU/s640/tumblr_lg7h9gpbtP1qap9qio1_500.jpeg');
+    background-size: cover;
+    
+  }
+   */
+.city-hover {
+    background-size: cover;
+    min-height:144px;
+    min-width: 225px;
+    height: 100%;
+    /* background-image: url('https://2.bp.blogspot.com/-CmBgofK7QzU/TVj3u3N1h2I/AAAAAAAADN8/OszBhGvvXRU/s640/tumblr_lg7h9gpbtP1qap9qio1_500.jpeg'); */
+  }
+  
+.city-hover.nordic {
+    background-image: url('https://i.imgur.com/5U3X5TX.png');
+}
+
+.city-hover.nordic:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif')
+}
+
+.city-hover.canada {
+    background-image: url('https://i.imgur.com/ji2WBm3.png');
+}
+
+.city-hover.canada:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif')
+}
+
+.city-hover.uk {
+    background-image: url(' https://i.imgur.com/sL79QRb.png');
+}
+
+.city-hover.uk:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif')
+}
+
+.city-hover.asia {
+    background-image: url('https://i.imgur.com/rOqtMTE.png');
+}
+
+.city-hover.asia:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif')
+}
+
+.city-hover.oceania {
+    background-image: url('https://i.imgur.com/wirStwt.png');
+}
+
+.city-hover.oceania:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif')
+}
+
+.city-hover.united-states {
+    background-image: url('https://i.imgur.com/Mah1rof.jpg');
+}
+
+.city-hover.united-states:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif')
+}
+
+  /* .city-hover:hover {
+    background-image: url('https://media.giphy.com/media/V1T2JBmK03OFy/giphy.gif');
+  } */
+
+/* --------------------------- /////////// VI.GAMES SECTION /////////// --------------------------- */
 .game-tags {
     background: #FAFAFA;
     padding: 10px;
@@ -482,7 +549,7 @@ button {
     top: 0;
     left: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
-    border-left: 2px solid cyan;
+    /* border-left: 2px solid cyan; */
     width: 100%;
     height: 100%;
     opacity: 0;
@@ -670,7 +737,7 @@ button {
 .rating p {
     font-size: 1.5rem;
 }
-/* --------------------------- /////////// VII. TEAM SECTION /////////// --------------------------- */
+/* --------------------------- /////////// VII.TEAM SECTION /////////// --------------------------- */
 #team figure {
     display: inline-block;
     position: relative;
@@ -717,7 +784,7 @@ button {
     padding-bottom: 0;
 }
 .gallery-item {
-    padding: 0 2.5px;
+    padding: 2.5px 2.5px;
 }
 .grid-gallery .row {
     margin: 0 0 5px 0;
@@ -727,7 +794,7 @@ button {
     width: 100%;
     border: none;
 }
-/* --------------------------- /////////// VIII. CAREERS SECTION /////////// --------------------------- */
+/* --------------------------- /////////// VIII.CAREERS SECTION /////////// --------------------------- */
 .job-card {
     text-align: center;
     background: #FAFAFA;
@@ -791,7 +858,7 @@ button {
     width: auto;
 }
 
-/* --------------------------- /////////// IX. FOOTER /////////// --------------------------- */
+/* --------------------------- /////////// IX.FOOTER /////////// --------------------------- */
 #footer {
     width: 100%;
     min-height: 70px;
@@ -820,7 +887,7 @@ button {
     float: left;
 }
 
-/* --------------------------- /////////// X. CONTACT SECTION /////////// --------------------------- */
+/* --------------------------- /////////// X.CONTACT SECTION /////////// --------------------------- */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
@@ -946,7 +1013,7 @@ fieldset {
   color: #888;
 }
 
-/* --------------------------- /////////// XI. 404 PAGE /////////// --------------------------- */
+/* --------------------------- /////////// XI.404 PAGE /////////// --------------------------- */
 #container-404 {
     position: absolute;
     top: 0;
@@ -966,7 +1033,7 @@ fieldset {
     text-decoration: none;
     color: #FFF;
 }
-/* --------------------------- /////////// XII. RESPONSIVE STYLES /////////// --------------------------- */
+/* --------------------------- /////////// XII.RESPONSIVE STYLES /////////// --------------------------- */
 @media (max-width : 991px) {
     .nav-item > a::first-letter {
     color: cyan;
